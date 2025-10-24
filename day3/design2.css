@@ -1,0 +1,29 @@
+ /* #box{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+} */
+.para{
+background-color: blue;
+} 
+h3,b,i{
+    background-color: red;
+}
+.parent p{
+    background-color: green;
+}
+.parent +p{
+    background-color: yellow;
+}
+.parent ~p{
+    background-color: pink;
+}
+.learn pseudo {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+
+}
+.learn pseudo:hover {
+    background-color: grey;
+}
